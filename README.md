@@ -1,12 +1,12 @@
 # Web-chat
 
-A simple Web app designes using Web socket package.
+A simple Web app designed using Web sockets in node.js.
 
-Just open the browser and add the url.. Login... Start chatting...
+Just open the browser...Add the url.. Login... Start chatting...
 
 The message you send will go along with your login username , time , date...
 
-If multiple people are using it then you can send private messages also by just using  "@" and then typing name of the user. This will send message to that user only. Sounds nice!!
+If multiple people are using it then you can send private messages also by just using  "@" and then typing name of the user. This will send message to that user only. Sounds nice na!!
 
 ## Prerequisites:
 
@@ -16,14 +16,19 @@ If multiple people are using it then you can send private messages also by just 
 
 ## HOW TO SET UP?
 
-Step 1: Run command * npm install *
+Step 1: Run command 
+          *npm install* 
+          
+          (in some IDEs run *npm install dependencies*)
 
-Step 2: Run command * node server.js * and open the respective port mentioned in your console.
+Step 2: Run command  
+          *node server.js* 
+          and open the respective port mentioned in your console.
 
 ## Demonstration
 
-Step 1: Open browser and put doen the localhost along with the port mentioned in console.
+Step 1: Open browser and put down the localhost along with the port mentioned in console.
 
 Step 2: Open another window and put the same localhost as that of previous window.
 
-Step 3: No just login from both sides and start sending messages.
+Step 3: Now just login and start sending messages.
