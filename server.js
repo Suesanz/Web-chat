@@ -2,7 +2,7 @@ const express = require('express')
 const http = require('http')
 const socketio = require('socket.io')
 
-const SERVER_PORT=process.env.PORT || 3333
+const SERVER_PORT = process.env.PORT || 3333
 const app = express()
 
 const server = http.createServer(app)
@@ -51,7 +51,6 @@ io.on('connection', function (socket) {
 
 
 })
-
 
 
 app.use('/', express.static(__dirname + '/public'))
