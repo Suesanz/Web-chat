@@ -4,13 +4,8 @@
   "description": "A web-chat app",
   "main": "server.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"node server.js"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
-    
->>>>>>> 44773fe431de6df69b993540df95cdea3b86b2b4
   },
   "author": "Sourav",
   "license": "ISC",
