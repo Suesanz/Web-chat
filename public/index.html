@@ -15,24 +15,32 @@
             integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-      <link href="https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dancing+Script|Great+Vibes|Kaushan+Script|Lobster|Pacifico"
+          rel="stylesheet">
 </head>
-<body background="47982112-christmas-wooden-background-with-snow.jpg">
-<h1 class="text-center">Web-chat</h1>
-<div class="container" id="login">
-    <div class="row">
-        <input class="form-control col m-4" type="text" id="inp-username">
-        <button class="btn btn-success col m-4" id="btn-login">Login</button>
-    </div>
-</div>
-<div class="container" id="chatbox">
-    <div class="row">
-        <input class="form-control col m-4" type="text" id="inp-msg">
-        <button class="btn btn-primary col m-4" id="btn-send">SEND</button>
-    </div>
 
-    <div class="row p-4 m-4" id="chatlist">
+<body>
+<h1 class="text-center">How Can We Help You?</h1>
 
+<div class="card bg-light mb-3" style="max-width: 22rem;" id="card1">
+    <div class="card-header">Please enter your credentials</div>
+    <div class="container" id="login">
+        <div class="row">
+            <input class="form-control col m-4" type="text" style="width: 10cm" placeholder="Full name">
+            <input class="form-control col m-4" type="email"  style="width: 10cm" placeholder="Email Address">
+            <input class="form-control col m-4" type="text" id="inp-username" style="width: 10cm" placeholder="Username">
+            <button class="btn btn-default col m-4" id="btn-login">Login</button>
+        </div>
+    </div>
+    <div class="container" id="chatbox">
+        <div class="row">
+            <input class="form-control col m-4" type="text" id="inp-msg" placeholder="Enter message">
+            <button class="btn btn-default col m-4" id="btn-send">SEND</button>
+        </div>
+
+        <div class="row p-4 m-4" id="chatlist">
+
+        </div>
     </div>
 </div>
 </body>
