@@ -32,3 +32,6 @@ Step 1: Open browser and put down the localhost along with the port mentioned in
 Step 2: Open another window and put the same localhost as that of previous window.
 
 Step 3: Now just login and start sending messages.
+### Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Suesanz/Web-chat)
