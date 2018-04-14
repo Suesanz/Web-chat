@@ -16,15 +16,6 @@
   "engines": {
     "node":"8.9.4",
     "npm":"5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/suesanz/Web-chat"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express",
-    "socket"
-  ]
+  }
+
 }

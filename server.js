@@ -56,5 +56,5 @@ io.on('connection', function (socket) {
 app.use('/', express.static(__dirname + '/public'))
 
 server.listen(SERVER_PORT, () => {
-    console.log("Server started on http://localhost:2345")
+    console.log("Server started on http://localhost:3333")
 })
