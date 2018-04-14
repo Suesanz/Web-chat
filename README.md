@@ -24,8 +24,6 @@ If multiple people are using it then you can send private messages also by just 
 
 Step 1: Run command 
           *npm install* 
-          
-          (in some IDEs run *npm install dependencies*)
 
 Step 2: Run command  
           *node server.js* 
