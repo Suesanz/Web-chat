@@ -8,6 +8,12 @@ The message you send will go along with your login username , time , date...
 
 If multiple people are using it then you can send private messages also by just using  "@" and then typing name of the user. This will send message to that user only. Sounds nice na!!
 
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Suesanz/Web-chat)
+
+# For development purpose
+
 ## Prerequisites:
 
 1.Any javascript IDE supporting node js(recommended: Webstorm by Jetbrains).
@@ -18,8 +24,6 @@ If multiple people are using it then you can send private messages also by just 
 
 Step 1: Run command 
           *npm install* 
-          
-          (in some IDEs run *npm install dependencies*)
 
 Step 2: Run command  
           *node server.js* 
@@ -32,6 +36,3 @@ Step 1: Open browser and put down the localhost along with the port mentioned in
 Step 2: Open another window and put the same localhost as that of previous window.
 
 Step 3: Now just login and start sending messages.
-### Deploy to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Suesanz/Web-chat)
