@@ -1,6 +1,6 @@
-# Web-chat
+# Web-chat (https://web-chatting.herokuapp.com)
 
-A simple Web app designed using Web sockets in node.js.
+A Web app designed using Web sockets in node.js.
 
 Just open the browser...Add the url.. Login... Start chatting...
 
